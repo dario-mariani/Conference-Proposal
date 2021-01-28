@@ -1,0 +1,101 @@
+/* If the browser isn't reflecting the new css, use ctrl f5 to refresh it */
+
+h1, h2 {
+  padding: 20px;
+}
+
+p {
+  padding: 20px;
+}
+
+table {
+  width: auto; /* sets the width automatically depending on size of table */
+  margin-left: auto;
+  margin-right: auto; /* margin-left and margin-right together set to auto center the table */
+}
+
+table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: lightskyblue;
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  background-color: #CFEBFD;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial;
+  color: #1e1e1e;
+  padding: 0 10px;
+}
+
+ul li a:hover {
+  color: lightskyblue;
+}
+
+button, input, select, datalist {
+  padding: 10px;
+}
+
+.newEntries {
+  width: 50%;
+}
+
+.goBack {
+  padding: 30px;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+.button {
+  font: 14px;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 10px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
